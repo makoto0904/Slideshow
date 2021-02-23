@@ -16,6 +16,7 @@
 		9065CE6E25E4A68D005860C8 /* german.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE6D25E4A68D005860C8 /* german.jpg */; };
 		9065CE7125E4AB2F005860C8 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */; };
 		9065CE7425E4AD58005860C8 /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE7325E4AD58005860C8 /* bike.jpg */; };
+		9065CE7725E4FFDE005860C8 /* a_half.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE7625E4FFDD005860C8 /* a_half.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9065CE6D25E4A68D005860C8 /* german.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = german.jpg; sourceTree = "<group>"; };
 		9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
 		9065CE7325E4AD58005860C8 /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
+		9065CE7625E4FFDD005860C8 /* a_half.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a_half.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */,
 				9065CE5925E4A34F005860C8 /* Main.storyboard */,
 				9065CE7325E4AD58005860C8 /* bike.jpg */,
+				9065CE7625E4FFDD005860C8 /* a_half.jpg */,
 				9065CE6D25E4A68D005860C8 /* german.jpg */,
 				9065CE5C25E4A351005860C8 /* Assets.xcassets */,
 				9065CE5E25E4A351005860C8 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			files = (
 				9065CE6025E4A351005860C8 /* LaunchScreen.storyboard in Resources */,
 				9065CE7425E4AD58005860C8 /* bike.jpg in Resources */,
+				9065CE7725E4FFDE005860C8 /* a_half.jpg in Resources */,
 				9065CE5D25E4A351005860C8 /* Assets.xcassets in Resources */,
 				9065CE5B25E4A34F005860C8 /* Main.storyboard in Resources */,
 				9065CE6E25E4A68D005860C8 /* german.jpg in Resources */,

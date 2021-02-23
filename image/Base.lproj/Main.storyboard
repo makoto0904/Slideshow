@@ -27,15 +27,38 @@
                                     <outletCollection property="gestureRecognizers" destination="WBT-Hi-rfa" appends="YES" id="S83-Jh-yuw"/>
                                 </connections>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="108" translatesAutoresizingMaskIntoConstraints="NO" id="Wwf-Ru-3ft">
+                                <rect key="frame" x="19.5" y="732" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCj-cP-t43">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
+                                        <state key="normal" title="進む"/>
+                                        <connections>
+                                            <action selector="go:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8O-AD-XxU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27O-aR-bXH">
+                                        <rect key="frame" x="139" y="0.0" width="31" height="30"/>
+                                        <state key="normal" title="戻る"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkN-bB-kEq">
+                                        <rect key="frame" x="278" y="0.0" width="97" height="30"/>
+                                        <state key="normal" title="再生/一字停止"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Wwf-Ru-3ft" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NSy-SG-oJA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wwf-Ru-3ft" secondAttribute="bottom" constant="100" id="e9m-LM-kMy"/>
                             <constraint firstItem="FNn-70-gim" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="122" id="iQw-Ch-aTQ"/>
                             <constraint firstItem="FNn-70-gim" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x6Y-Ww-oej"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="go" destination="jCj-cP-t43" id="kHm-YB-z4y"/>
                         <outlet property="slide" destination="FNn-70-gim" id="Ote-R7-dWj"/>
                         <outlet property="tapaction" destination="WBT-Hi-rfa" id="zwy-9K-b9Y"/>
                     </connections>

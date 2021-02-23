@@ -19,7 +19,7 @@ class ExpansionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        imageView.image = self.image
         // Do any additional setup after loading the view.
     }
     
