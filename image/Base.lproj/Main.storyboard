@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FNn-70-gim">
-                                <rect key="frame" x="86" y="164" width="243" height="213"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FNn-70-gim">
+                                <rect key="frame" x="85.5" y="166" width="243" height="213"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="213" id="IbZ-qE-7ak"/>
-                                    <constraint firstAttribute="width" constant="243" id="ume-d1-DWu"/>
+                                    <constraint firstAttribute="height" constant="213" id="lQG-79-7gD"/>
+                                    <constraint firstAttribute="width" constant="243" id="ocC-TM-Fgl"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="WBT-Hi-rfa" appends="YES" id="S83-Jh-yuw"/>
@@ -47,6 +47,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-8s-aTI">
                                         <rect key="frame" x="180" y="0.0" width="66" height="30"/>
                                         <state key="normal" title="再生/停止"/>
+                                        <connections>
+                                            <action selector="playstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvf-Ye-IkJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

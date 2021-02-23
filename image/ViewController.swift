@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         UIImage(named: "a_half.jpg")!,
         UIImage(named: "bike.jpg")!
     ]
+    //スライドショーに使用するタイマーを宣言
+    var timer: Timer!
     
     
 
@@ -57,6 +59,36 @@ class ViewController: UIViewController {
             page -= 1}
         slide.image = imageArray[page]
         }
+    //再生ボタンを押した時の処理
+    @IBAction func playstop(_ sender: Any) {
+        //再生中か停止しているかを判定
+        if(timer == nil){
+            //再生時の処理を実装
+            
+            //タイマーをセットする
+            timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(changeImage), userInfo: nil, repeats: true)
+        }else{
+            //停止時の処理を実装
+            //タイマーを停止する
+            timer.invalidate()
+            
+            //タイマーを初期化
+            timer = nil
+            
+        }
     }
+    @objc func changeImage(){
+        //pageを増やして表示する画像を切り替える
+        if page == 0{
+             page = 2}
+        else {
+            page -= 1}
+        slide.image = imageArray[page]
+
     
+        
+    }
+}
+    
+
 
