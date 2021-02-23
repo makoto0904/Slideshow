@@ -13,6 +13,9 @@
 		9065CE5B25E4A34F005860C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE5925E4A34F005860C8 /* Main.storyboard */; };
 		9065CE5D25E4A351005860C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE5C25E4A351005860C8 /* Assets.xcassets */; };
 		9065CE6025E4A351005860C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE5E25E4A351005860C8 /* LaunchScreen.storyboard */; };
+		9065CE6E25E4A68D005860C8 /* german.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE6D25E4A68D005860C8 /* german.jpg */; };
+		9065CE7125E4AB2F005860C8 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */; };
+		9065CE7425E4AD58005860C8 /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9065CE7325E4AD58005860C8 /* bike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9065CE5C25E4A351005860C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9065CE5F25E4A351005860C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9065CE6125E4A351005860C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9065CE6D25E4A68D005860C8 /* german.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = german.jpg; sourceTree = "<group>"; };
+		9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
+		9065CE7325E4AD58005860C8 /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				9065CE5325E4A34F005860C8 /* AppDelegate.swift */,
 				9065CE5525E4A34F005860C8 /* SceneDelegate.swift */,
 				9065CE5725E4A34F005860C8 /* ViewController.swift */,
+				9065CE7025E4AB2F005860C8 /* ExpansionViewController.swift */,
 				9065CE5925E4A34F005860C8 /* Main.storyboard */,
+				9065CE7325E4AD58005860C8 /* bike.jpg */,
+				9065CE6D25E4A68D005860C8 /* german.jpg */,
 				9065CE5C25E4A351005860C8 /* Assets.xcassets */,
 				9065CE5E25E4A351005860C8 /* LaunchScreen.storyboard */,
 				9065CE6125E4A351005860C8 /* Info.plist */,
@@ -125,8 +134,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9065CE6025E4A351005860C8 /* LaunchScreen.storyboard in Resources */,
+				9065CE7425E4AD58005860C8 /* bike.jpg in Resources */,
 				9065CE5D25E4A351005860C8 /* Assets.xcassets in Resources */,
 				9065CE5B25E4A34F005860C8 /* Main.storyboard in Resources */,
+				9065CE6E25E4A68D005860C8 /* german.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9065CE7125E4AB2F005860C8 /* ExpansionViewController.swift in Sources */,
 				9065CE5825E4A34F005860C8 /* ViewController.swift in Sources */,
 				9065CE5425E4A34F005860C8 /* AppDelegate.swift in Sources */,
 				9065CE5625E4A34F005860C8 /* SceneDelegate.swift in Sources */,
