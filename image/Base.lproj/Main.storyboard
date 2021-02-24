@@ -85,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bike.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hzw-D6-5Ke">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hzw-D6-5Ke">
                                 <rect key="frame" x="20" y="143" width="374" height="330"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="330" id="cd9-hM-f7k"/>
@@ -110,6 +110,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hD4-WI-2xC"/>
+                    <connections>
+                        <outlet property="imageVIew" destination="hzw-D6-5Ke" id="ecW-t7-LZJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mte-mp-L0s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="is5-Ft-Ivq" userLabel="Exit" sceneMemberID="exit"/>
@@ -118,7 +121,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bike.jpg" width="3369.60009765625" height="2246.39990234375"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -10,7 +10,8 @@ import UIKit
 class ExpansionViewController: UIViewController {
     //戻るをoutletしておく
     @IBOutlet weak var back: UIButton!
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageVIew: UIImageView!
+    var Img: UIImage?
  
     //受け取るための変数を宣言しておく
     
@@ -18,6 +19,8 @@ class ExpansionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        imageVIew.image = self.Img
         
         
         // Do any additional setup after loading the view.

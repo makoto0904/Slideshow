@@ -79,14 +79,21 @@ class ViewController: UIViewController {
     }
     @objc func changeImage(){
         //pageを増やして表示する画像を切り替える
-        if page == 0{
-             page = 2}
-        else {
-            page -= 1}
+        page += 1
+        if page > 2{
+            page = 0
+        }
+        
         slide.image = imageArray[page]
-
+        
     
         
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //segueから潜入り先のExpansionViewcontrollerを取得する
+        let expansionViewContorller:ExpansionViewController = segue.destination as! ExpansionViewController
+        //
+        expansionViewContorller.Img = imageArray[page]
     }
 }
     
