@@ -113,6 +113,13 @@ class ViewController: UIViewController {
           //再生中か停止しているかを判定
             if(timer != nil){
                 timer.invalidate()
+                //タイマーを初期化
+                timer = nil
+                //ボタンの有効化
+                go.isEnabled = true
+                back.isEnabled = true
+                //ボタンの名前を変更
+                playstop.setTitle("再生", for: .normal)
             }
         }
 }
