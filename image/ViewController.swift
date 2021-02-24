@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var back: UIButton!
     @IBOutlet weak var playstop: UIButton!
     
+    
     //スライドショーの変数
     var page: Int = 0
     
@@ -44,7 +45,8 @@ class ViewController: UIViewController {
        
        
     }
- 
+   
+    
     
    @IBAction func unwind(_ segue: UIStoryboardSegue) {
         
@@ -90,6 +92,7 @@ class ViewController: UIViewController {
             playstop.setTitle("再生", for: .normal)
         }
     }
+    
     @objc func changeImage(){
         //pageを増やして表示する画像を切り替える
         page += 1
@@ -106,7 +109,12 @@ class ViewController: UIViewController {
         let expansionViewContorller:ExpansionViewController = segue.destination as! ExpansionViewController
         //
         expansionViewContorller.Img = imageArray[page]
-    }
+        //画面遷移時に再生中だと再生を止める
+          //再生中か停止しているかを判定
+            if(timer != nil){
+                timer.invalidate()
+            }
+        }
 }
     
 

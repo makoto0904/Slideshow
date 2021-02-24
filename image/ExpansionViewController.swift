@@ -23,6 +23,8 @@ class ExpansionViewController: UIViewController {
         imageVIew.image = self.Img
         
         
+        
+        
         // Do any additional setup after loading the view.
     }
     
